@@ -12,7 +12,7 @@ body {
     margin:0;
 }
 a {
-    color:black;
+    color: dimgray;
     text-decoration: none;
 }
 h1 {
@@ -48,4 +48,11 @@ ol {
     h1 {
         border-bottom: none;
     }
+}
+#night_day {
+    border-right: 1px solid gray;
+    background-color: white;
+    color: black;
+    float: right;
+    transform: translate(0,-110%);
 }
